@@ -1,0 +1,31 @@
+$ vagrant ssh
+Welcome to Ubuntu 16.04.6 LTS (GNU/Linux 4.4.0-131-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+0 packages can be updated.
+0 updates are security updates.
+
+
+The shared directory is located at /vagrant
+To access your shared files: cd /vagrant
+Last login: Fri Jul 19 05:18:09 2019 from 10.0.2.2
+vagrant@vagrant:~$ cd /vagrant
+vagrant@vagrant:/vagrant$ python solution.py
+The most errors occured on :
+Jul 17, 2016
+
+The most viewed articles are :
+'Candidate is jerk, alleges rival' '338647 Views'
+'Bears love berries, alleges bear' '253801 Views'
+'Bad things gone, say good people' '170098 Views'
+"Goats eat Google's lawn" '84906 Views'
+'Trouble for troubled troublemakers' '84810 Views'
+
+The most popular Authors are
+'Ursula La Multa' Decimal('507594')Views
+'Rudolf von Treppenwitz' Decimal('423457')Views
+'Anonymous Contributor' Decimal('170098')Views
+'Markoff Chaney' Decimal('84557')Views
