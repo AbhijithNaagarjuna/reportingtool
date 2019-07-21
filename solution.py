@@ -10,7 +10,7 @@ import re
 from datetime import datetime
 
 # CODE TO FIND OUT THE MOST ERRORS OCCURED ON A PARTICULAR DAY
-print(The most errors occured on)
+print("The most errors occured on")
 db = psycopg2.connect("dbname=news")
 c = db.cursor()
 c.execute("""select day from
@@ -21,8 +21,8 @@ t = c.fetchall()
 res = datetime.strftime(t[0][0], '%b %d, %Y')
 print(res)
 db.close()
-print()
-print(The most viewed articles are)
+print("")
+print("The most viewed articles are")
 
 # CODE TO FIND OUT THE MOST VIEWED ARTICLES
 db = psycopg2.connect("dbname=news")
@@ -34,8 +34,8 @@ for x in range(len(res)):
     print(str(res[x][0])+"--"+str(res[x][1]) + " Views")
 db.close()
 
-print()
-print(The most popular Authors are)
+print("")
+print("The most popular Authors are")
 
 # CODE TO FIND OUT THE MOST POPULAR AUTHORS
 db = psycopg2.connect("dbname=news")
@@ -47,3 +47,4 @@ res = c.fetchall()
 for x in range(len(res)):
     print(str(res[x][0])+"--"+str(res[x][1]) + " Views")
 db.close()
+
