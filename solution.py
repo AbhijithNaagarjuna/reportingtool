@@ -34,7 +34,7 @@ for x in range(len(res)):
     print(str(res[x][0])+"--"+str(res[x][1]) + " Views")
 db.close()
 
-print("")
+print()
 print(The most popular Authors are)
 
 # CODE TO FIND OUT THE MOST POPULAR AUTHORS
