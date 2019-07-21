@@ -1,10 +1,20 @@
 # reportingtool
 Basic Reporting tool for Queries
 
+PYTHON VERSION 2.7
+
+DEPENDENCIES : 
+import psycopg2
+import numpy as np
+import re
+from datetime import datetime
+
+
+
 STEPS TO RUN IT :
 Step 1 : Bring the virtual machine online (with vagrant up). Then log into it with vagrant ssh.
 Step 2 : cd into the vagrant
-Step 3 : Connect to the new database by running the following command
+Step 3 : Connect to the new database by running the following command psql -d news -f newsdata.sql
 Step 4 : Execute the below view tables
 Step 5 : Execute the python solution.py
 
