@@ -14,9 +14,11 @@ from datetime import datetime
 STEPS TO RUN IT :
 Step 1 : Bring the virtual machine online (with vagrant up). Then log into it with vagrant ssh.
 Step 2 : cd into the vagrant
-Step 3 : Connect to the new database by running the following command psql -d news -f newsdata.sql
-Step 4 : Execute the below view tables
-Step 5 : Execute the python solution.py
+Step 3 : Dowload the newsdata.sql file from the following link https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip
+Step 4 : Extract it to the same folder as Vagrant
+Step 4 : Connect to the new database by running the following command psql -d news -f newsdata.sql
+Step 5 : Execute the below view tables
+Step 6 : Execute the python solution.py
 
 
 
