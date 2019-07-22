@@ -1,12 +1,12 @@
-# reportingtool
+## reportingtool
 Basic Reporting tool for Queries
 
 PYTHON VERSION 2.7
 
 DEPENDENCIES : 
-import psycopg2
-import numpy as np
-import re
+psycopg2
+numpy
+re
 from datetime import datetime
 
 
